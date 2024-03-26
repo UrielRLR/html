@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<head> 
+    <meta charset="UTF-8">
+    <title>AmiguToys</title>
+    <style>
+    body {
+            background-color: rgb(249, 222, 211);
+            margin: 10px; 
+
+        }
+        header {
+            text-align: center;
+            background-color: rgb(137, 171, 180);
+            padding: 1%;
+            display: flex;/*permite alinear y distribuir el espacio entre los elementos */
+            flex-direction: column; /* Coloca los elementos en una columna */
+            align-items: center;
+        }
+        footer{
+           background-color:  rgb(137, 171, 180 );
+           padding: 3%;
+           text-align: right;
+        }
+        .logo {
+            text-align: center;
+        }
+        .controls {
+            display: flex;
+            justify-content: flex-end; /* Alinea los elementos a la derecha */
+            width: 100%;
+            box-sizing: border-box;
+            padding: 0 20px; /* Agrega un margen interno a los controles */
+            margin-top: 20px; /* Ajusta el margen superior*/
+        }
+        .search-box {
+            display: flex;
+            align-items: center;
+            margin-right: 10px;
+        }
+        input[type="text"] {
+            padding: 1px;
+            font-size: 16px;
+        }
+        button {
+            background: none;
+            border: none;
+            cursor: pointer;
+
+        }
+        button img {
+            width: 2em;
+            height: 2em;
+        }
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+        h3{
+            font-size: 200%;
+            margin: 5%;
+        }
+        .container {
+            text-align: center;
+        }
+        p{
+            font-size: 130%;
+            margin: 80px;
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>
+                <a href="file:///C:/Users/uriel/OneDrive/Escritorio/FEIMG/MIPAGWEB.html">
+                <img src="logo.png" alt="AmiguToys Logo" width="450" height="120">
+            </a>
+            </h1>
+        </div>
+        <div class="controls">
+            <div class="search-box">
+                <input type="text" placeholder="Buscar...">
+                <input type="submit" value="Buscar">
+            </div>
+            <button>
+                <a href="file:///C:/Users/uriel/OneDrive/Escritorio/FEIMG/Car.html">
+                    <img src="carritoicon.png">
+                </a>
+                </button>
+            <button>
+                <a href="file:///C:/Users/uriel/OneDrive/Escritorio/FEIMG/Usuario.html">
+                    <img src="usarioicon.png" alt="Icono de usuario">
+                </a>
+            </button>
+        </div>
+        <button>
+            <a href="file:///C:/Users/uriel/OneDrive/Escritorio/FEIMG/About.html">Acerca de nosotros</a>
+        </button>
+    </header>
+    <h3>Arreglos Personalizados</h3>
+    <div class="container">
+        <img src="adorno.png" height="400" width="300">
+            <p>Si necesitas adornos, regalos o centros de mesa para tus reuniones o fiestas, puedes 
+                comunicarte con nostros indicandonos que te gustaria o si lo necesita, podemos orientarla
+                segun lo que necesita.
+            </p>
+            <button>
+                <a href="file:///C:/Users/uriel/OneDrive/Escritorio/FEIMG/carrito.html">
+                <strong><u>ARGREGAR AL CARRITO</u></strong>
+                </a>
+            </button> <br><br>
+</body>
+<footer>
+    <button>
+        <img src="inst.png" alt="" height="400" width="300"><a href="https://www.instagram.com/amigutoys1/">
+            <h4><strong>Contactanos</strong></h4>
+        </a>
+    </button>
+</footer>
+</html>
